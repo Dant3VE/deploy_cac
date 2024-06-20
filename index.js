@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("Deploy CaC Prueba"); 
+    res.send("Deploy CaC Prueba GitHub"); 
 });
 
 //console.log(process.env.PORT)
